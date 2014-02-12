@@ -29,4 +29,5 @@ If you want to set or reset the seed on a previously created instance, you can d
 Languages so far
 ----------------
 
-- JavaScript (sorry, just one so far)
+- JavaScript
+- PHP
