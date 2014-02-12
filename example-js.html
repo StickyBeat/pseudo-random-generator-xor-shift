@@ -1,16 +1,18 @@
 <html>
 	<head>
+		<title>JavaScript Example</title>
 		<script src="random-generator.js"></script>
 	</head>
 	<body>
 		<script>
 
-			seed = 151251515;
+			seed = 12345;
 			generator = new RandomGenerator( seed );
 
 			document.write( 'seed : ' + seed + '<br/>' );
 
 			for( var n=0; n<100; n++ ){
+
 				var value = generator.random() % 100;
 
 				document.write( n + ' : ' + value + '<br/>' );
